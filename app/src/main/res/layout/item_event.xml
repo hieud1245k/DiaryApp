@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:id="@+id/tv_history"
+        android:textSize="18sp"
+        android:layout_marginLeft="16dp"
+        android:text="Tomorrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bgbtnnew"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <TextView
+            android:id="@+id/date_event"
+            android:layout_marginLeft="8dp"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="4:20 PM"
+            tools:ignore="RtlCompat" />
+
+        <LinearLayout
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Buy whiskas"
+                android:textColor="#5FEF10"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/desc_event"
+                android:textSize="18sp"
+                android:layout_marginLeft="16dp"
+                android:textColor="#5707E6"
+                android:text="Nearly market good to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

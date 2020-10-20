@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "936420010587",
+    "firebase_url": "https://diary2020-a1511.firebaseio.com",
+    "project_id": "diary2020-a1511",
+    "storage_bucket": "diary2020-a1511.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936420010587:android:41b987be6c80cf8bbced7e",
+        "android_client_info": {
+          "package_name": "com.hieuminh.diaryv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936420010587-5775h8u3s1cr907cms6kgoj7ve48a90r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNGuFxfnx_7HLp6ws1pBC-ypYjH778aIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936420010587-5775h8u3s1cr907cms6kgoj7ve48a90r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
